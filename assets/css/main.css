@@ -1,11 +1,4 @@
-/*! 
- * Template Name: Orbit - Bootstrap 5 Resume/CV Template for Developers
- * Version: Bootstrap 5 v2.0
- * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media
- * Twitter: @3rdwave_themes
- * Website: http://themes.3rdwavemedia.com/
-*/
+
 body {
   font-family: "Roboto", sans-serif;
   color: #545E6C;
@@ -14,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -26,10 +20,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #10171a;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+
 }
 a:focus {
   text-decoration: none;
@@ -298,3 +289,84 @@ p {
     margin-bottom: 0;
   }
 }
+
+
+/*swicth*/
+
+/* switch */
+
+/* Mevcut CSS kodlarınızın altına ekleyin */
+
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* switch*/
+
+/* Anahtar için temel stil */
+.switch-light {
+display: inline-block;
+position: relative;
+cursor: pointer;
+user-select: none;
+}
+
+/* Anahtarın arka planını ve boyutunu ayarlayın */
+.switch-light-span {
+display: flex;
+width: 120px;
+height: 30px;
+background-color: #ccc;
+border-radius: 30px;
+transition: background-color 0.3s;
+}
+
+/* Anahtarın içindeki metinlerin konumunu ayarlayın */
+.switch-light-span span {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+color: #fff;
+z-index: 1;
+}
+
+/* Anahtar düğmesinin stilini ve boyutunu ayarlayın */
+
+.switch-light-span a {
+position: absolute;
+display: block;
+width: 50%;
+height: 100%;
+background-color: #fff;
+border-radius: 50px;
+z-index: 2;
+transition: transform 0.3s;
+}
+
+/* Anahtarın "açık" pozisyonunu ve arka planını ayarlayın */
+.switch-light input:checked ~ .switch-light-span {
+background-color: #3d4d3d;
+}
+
+/* Anahtar düğmesinin "açık" pozisyonunu ayarlayın */
+.switch-light input:checked ~ .switch-light-span a {
+transform: translateX(100%);
+}
+
+/* Görünmez giriş öğesinin stilini ayarlayın */
+.switch-light input {
+position: absolute;
+opacity: 0;
+width: 100%;
+height: 100%;
+z-index: 3;
+cursor: pointer;
+}
+
+
+
