@@ -22,7 +22,7 @@ $(document).ready(function () {
     .use(window.i18nextBrowserLanguageDetector)
     .init(
       {
-        fallbackLng: 'en',
+        fallbackLng: 'tr',
         backend: {
           loadPath: 'translations/{{lng}}.json',
         },
