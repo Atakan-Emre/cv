@@ -22,7 +22,7 @@ $(document).ready(function () {
     .use(window.i18nextBrowserLanguageDetector)
     .init(
       {
-        fallbackLng: 'en',
+        fallbackLng: 'tr',
         backend: {
           loadPath: 'translations/{{lng}}.json',
         },
@@ -31,7 +31,7 @@ $(document).ready(function () {
     );
 
   $('#langSwitch').on('change', function () {
-    const newLang = i18next.language === 'en' ? 'tr' : 'en';
+    const newLang = i18next.language === 'tr' ? 'en' : 'tr';
     i18next.changeLanguage(newLang, updateContent);
   });
 });
