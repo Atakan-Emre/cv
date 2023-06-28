@@ -7,7 +7,7 @@ Bu proje, Atakan Emre'nin online CV'sini GitHub Pages kullanarak yayınlamak iç
 - Kullanıcı dostu ve sade tasarım
 - Mobil uyumlu, responsif sayfa yapısı
 - Güncel ve detaylı bilgiler
-- Eğitim, deneyim, beceriler ve projeler gibi önemli alanlar içerir
+- Eğitim, deneyim, beceriler ve projeler gibi önemli alanlar içerir.
 - İletişim bilgileri,mail bilgileri ve sosyal medya bağlantıları vardır.
 
 ## Kullanılan Teknolojiler
